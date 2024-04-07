@@ -12,7 +12,7 @@ function Users() {
             <h2>Users</h2>
             <ul>
                 {
-                    Users.map((user,index) => {
+                    users.map((user,index) => {
                         return(<li>{user.name}.{user.age}</li>)
                     })
                 }

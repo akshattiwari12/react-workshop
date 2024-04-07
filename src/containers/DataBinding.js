@@ -21,7 +21,7 @@ function DataBinding(){
             </h4>
             <div>
                 <input type ="text" value={data.name} />
-                 oneChange = {handleVhange} 
+                 oneChange = {handleChange} 
             </div>
         </div>
     )
